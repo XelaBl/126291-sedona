@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Sedona</title>
+  </head>
+  <body>
+    <header class="main_header">
+      <div class="container">
+        <a href="index.html" ><img src="http://placehold.it/50x50"></a>
+        <nav>
+         <ul>
+           <li><a href="#">Информация</a></li>  
+           <li><a href="#">Фото и Видео</a></li>       
+           <li><a href="#">Карта штата</a></li>
+           <li><a href="#">Гостиница</a></li>           
+         </ul> 
+       </div>
+     </nav>
+  </header>
+    <main class="container">    
+      <div>
+        <form class="filters">
+          <fieldset>
+            <legend class="filter_name">Инфраструктура</legend>
+            <label><input type="checkbox" checked>Бассейн</label>
+            <label><input type="checkbox">Парковка</label>
+            <label><input type="checkbox">Wi-FI</label>
+          </fieldset>
+          <fieldset>
+            <legend class="filter_name">Тип Жилья</legend>
+              <label><input type="checkbox" checked>Гостиница</label>
+              <label><input type="checkbox" checked>Мотель</label>
+              <label><input type="checkbox" checked>Апартаменты</label>
+          </fieldset>
+           <fieldset>
+             <legend>Стоимость в стуки(Р):</legend>
+               <input type="nmber" id="fld_1" value="0">ОТ
+               <input type="nmber" id="fld_2" value="3000">ДО
+               <div class="range_min">
+                 <button>o</button>
+               </div>
+               <div class="range_max">
+                 <button>o</button>
+               </div>
+               <button class="btn_show">Показать</button>                
+           </fieldset>
+        </form>
+      </div>  
+      <div class="results">
+        <p>Найдено: 3</p>
+        <ul class="ctr_results">
+          <li>Сортировка:</li>
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По рейтингу</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>          
+        </ul>
+      </div>
+      <div class="block_hotels"> 
+        <article class="hotel">
+          <img src="http://placehold.it/150x100">
+          <p class="hotel_name">Amara Resort and Spa</p>
+          <span>Гостиница</span>
+          <span>От 3500 Р.</span>
+          <div>
+            <a  class="btn_hotel_1"href="#">Подробнее</a>
+            <a class="btn_hotel_2" href="">Забронировать</a>
+          </div>
+          <div class="hotel_rate">
+            <img src="http://placehold.it/10x10">
+            <p>Рейинг: 8,5</p>  
+          </div>
+        </article>   
+        <article class="hotel">
+          <img src="http://placehold.it/150x100">
+          <p class="hotel_name">Desert Quail INN</p>
+          <span>Мотель</span>
+          <span>От 2000 Р.</span>
+          <div>
+            <a  class="btn_hotel_1"href="#">Подробнее</a>
+            <a class="btn_hotel_2" href="">Забронировать</a>
+          </div>
+          <div class="hotel_rate">
+            <img src="http://placehold.it/10x10">
+            <p>Рейинг: 8,9</p>  
+          </div>
+        </article>
+        <article class="hotel">
+          <img src="http://placehold.it/150x100">
+          <p class="hotel_name">Villas at poco diablo</p>
+          <span>Апартаменты</span>
+          <span>От 4000 Р.</span>
+          <div>
+            <a  class="btn_hotel_1"href="#">Подробнее</a>
+            <a class="btn_hotel_2" href="">Забронировать</a>
+          </div>
+          <div class="hotel_rate">
+            <img src="http://placehold.it/10x10">
+            <p>Рейинг: 9,2</p>  
+          </div>
+        </article>
+      </div>
+    </main>
+    <footer class="main_footer">
+      <div class="footer_mark">
+        <a href="#"><p>#VisitSedona</p></a>
+      </div>
+      <div class="footer_social">
+        <a class="social-btn social-btn-vk" href="#">Twitter</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Youtube</a>
+      </div>
+      <div class="footer_academy">
+        <p>WEBSIDE by</p>
+        <a href="#"><img src="http://placehold.it/100x50"></a>
+      </div>
+    </footer> 
+  </body>
+</html>

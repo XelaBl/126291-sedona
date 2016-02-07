@@ -2,28 +2,27 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Sedona</title>
   </head>
   <body>
-    <header class="main-header">
+    <header class="main_header">
       <div class="container">
-      <a href="index.html" ><img src="http://placehold.it/50x50"></a>
+        <a href="index.html" ><img src="http://placehold.it/50x50"></a>
         <nav>
            <ul>
-             <li>
-               <a href="#">Информация</a>
-             </li>
-             <li>
-               <a href="#">Фото и Видео</a>
-             </li>
-             <li>
-               <a href="#">Карта штата</a>
-             </li>
-             <li>
-               <a href="#">Гостиница</a>
-             </li>     
+             <li><a href="#">Информация</a></li>  
+             <li><a href="#">Фото и Видео</a></li>       
+             <li><a href="#">Карта штата</a></li>
+             <li><a href="#">Гостиница</a></li>     
            </ul> 
-        </div> 	
+        </div>
+        <div class="main_img">
+          <img src="http://placehold.it/200x200">
+          <p class="main1">Welcome</p>
+          <p class="main2">-to the gorgeous</p>
+          <p class="main3">Sedona</p>
+          <p class="main4">"Because the Grand Canyon sucks!"</p>
+       </div>  	
     </header>
     <main class="container">
       <div>
@@ -31,97 +30,107 @@
         <p class="reason">Рассмотрим 5 причин, по которой Седона круче, чем Гранд-Каньон</p>
       </div>
       <article>
-        <h2 class="first_reason">Настоящий городок</h2>
         <div class="description">
+         <h2 class="first_reason">Настоящий городок</h2>
          <p>-№1-</p>
          <p>Седона - не аттракцион дя туристов, там течет своя жизнь</p>
-         <img src="http://placehold.it/300x100">
        </div>
+       <img src="http://placehold.it/200x200">
      </article>
      <div class="minor_desc">
        <div>
-         <img src="http://placehold.it/20x20">
          <p class="name">Жильё</p>
          <p class="name_desc">Рекомендуем пожить в настоящем мотеле, все как в кино</p>
        </div>
        <div>
-         <img src="http://placehold.it/20x20">
          <p class="name">Еда</p>
          <p class="name_desc">Всегда заказываете фирменный бургер, Вы не разочаруетесь</p>
        </div>
-       <div>
-         <img src="http://placehold.it/20x20">
+       <div>       
          <p class="name">Сувениры</p>
          <p class="name_desc">Не только китайского, но и местного производства</p>
        </div>
      </div>
-     <article>
-        <h2 class="first_reason">Там есть Мост дьявола</h2>
+     <article> 
         <div class="description">
+         <h2 class="first_reason">Там есть Мост дьявола</h2>
          <p>-№2-</p>
          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-         <img src="http://placehold.it/300x100">
        </div>
+       <img src="http://placehold.it/200x200">
      </article>
      <div class="other_reasons">
-       <b class="name_reason">Небольшая площадь</b>   
+       <p class="name_reason">Небольшая площадь</p>   
        <p class="name">Жильё</p>
        <p class="name_desc">Рекомендуем пожить в настоящем мотеле, все как в кино</p>
      </div>
      <div>
-       <b class="name_reason">Красивая дорога</b>
+       <p class="name_reason">Красивая дорога</p>
        <p class="name">Еда</p>
        <p class="name_desc">Всегда заказываете фирменный бургер, Вы не разочаруетесь</p>
      </div>
      <div>
-       <b class="name_reason">Красивая дорога</b>
+       <p class="name_reason">Красивая дорога</p>
        <p class="name">Сувениры</p>
        <p class="name_desc">Не только китайского, но и местного производства</p>
      </div>
      <div>
        <div class="reserve">
-         <span class="name_reserve">Заинтересовались?</span>
-         <p class="name_desc">Укажите предпологаемые даты поездки, 
-                              и мы покажем Вам лучшие предложениягостини</p>
+         <p class="name_reserve">Заинтересовались?</p>
+         <p class="name_desc">Укажите предпологаемые даты поездки, и мы покажем Вам лучшие предложениягостини</p>
        </div>
-       <div>
-         <span class="block_name">Поиск гостиницы в Седоне</span>
+       <div class="big_block">  
+         <div>
+           <p class="block_name">Поиск гостиницы в Седоне</p>
+         </div>    
+         <div >
+           <form class="block_form">
+             <p>Дата заезда</p>
+             <label><input type="text">24 Апреля 2016</label>
+             <p>Дата выезда</p>
+             <label><input type="text">4 Июля 2016</label>
+           </form>
+         </div>
+         <div>
+           <button class="calendar"><img src="http://placehold.it/10x10"></button>
+         </div>        
+         <div class="lodgers">
+           <p>Взрослые</p>
+         </div>
+         <div>
+           <button class="btn_min">-</button>
+           <input type="number" value="0"> 
+           <button class="btn_pls">+</button>   
+         </div>
+         <div class="lodgers">
+           <p>Дети</p>  
+         </div>    
+         <div>
+           <button class="btn_min">-</button>
+           <input type="number" value="0">  
+           <button class="btn_pls">+</button>   
+         </div>         
+         <div class="search">
+           <a href="sedona-hotels.html">Найти</a>
+         </div>
+       </div>  
+     </main>
+     <footer class="main_footer">
+       <div class="footer_mark">
+         <a href="#"><p>#VisitSedona</p></a>
        </div>
-       <div class="block_date">
-         <span>Дата заезда:</span>
-         <span>24 Апреля</span> 
+       <div class="footer_social">
+         <a class="social-btn social-btn-vk" href="#">Twitter</a>
+         <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+         <a class="social-btn social-btn-inst" href="#">Youtube</a>
        </div>
-       <div class="block_date">
-         <span>Дата выезда:</span>
-         <span>4 Июля</span>
+       <div class="footer_academy">
+         <p>WEBSIDE by</p>
+         <a href="#"><img src="http://placehold.it/100x50"></a>
        </div>
-       <div class="block_man">
-         <span>Взрослые</span>
-         <span>дети</span>
-         <span>2</span> 
-         <span>4</span>   
-       </div>
-       <div>
-         <button class="calendar"><img src="http://placehold.it/10x10"></button>
-         <button class="min">Мало</button>
-         <button class="max">Много</button>
-       </div>
-       <div class="search">
-         <a href="sedona-hotels.html">Найти</a>
-       </div>
-   </main>
-   <footer class="main_footer">
-     <div>
-       <a href="#"><img src="http://placehold.it/100x50"></a>
-     </div>
-     <div class="footer_social">
-       <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-       <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-       <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-     </div>
-     <div class="footer_academy">
-       <a href="#"><img src="http://placehold.it/100x50"></a>
-     </div>
-   </footer> 
-  </body>
+     </footer> 
+   </body>
 </html>
+
+
+       
